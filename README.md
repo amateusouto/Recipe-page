@@ -17,7 +17,7 @@ Esta es una solución al [reto de la página de receta en Frontend Mentor](https
 
 ### Captura de pantalla
 
-![](./assets/images/screenshot.png) <!-- (Opcional: puedes añadir una captura de pantalla de tu proyecto aquí) -->
+![Captura de pantalla de la página de receta](./assets/images/recipe_page.webp)
 
 ### Enlaces
 
