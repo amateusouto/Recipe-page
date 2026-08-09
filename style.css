@@ -43,7 +43,8 @@ body{
 
 main{
     background-color: var(--white);
-    min-width: 23.44rem;
+    max-width: clamp(23.44rem, 90vw, 45rem);
+    margin-inline: auto;
 }
 
 footer{
@@ -149,6 +150,11 @@ hr{
     border-radius: 100%;
 }
 
+.instructions {
+    border-top: 0.01rem solid var(--stone-150);
+    padding-block-start: 1.5rem;
+}
+
 .instructions ol{
     padding: 1rem;
 }
@@ -162,6 +168,11 @@ hr{
 .instructions li::marker{
     color: var(--brown-800);
     font-weight: bold;
+}
+
+.nutrition {
+    border-top: 0.01rem solid var(--stone-150);
+    padding-block-start: 1.5rem;
 }
 
 .nutrition p{
@@ -205,8 +216,6 @@ hr{
     }
 
     main {
-        width: 35rem;
-        max-height: 100%;
         border-radius: 1rem;
         padding: 2rem;
         overflow: hidden; 
@@ -226,11 +235,5 @@ hr{
 
     .recipe-card{
         padding: 0;
-    }
-}
-
-@media (min-width: 64rem){
-    main{
-        width: 46rem;
     }
 }
