@@ -73,12 +73,6 @@ p{
     color: var(--stone-600);
 }
 
-hr{
-    border: none;
-    height: 0.05rem;
-    background-color: var(--stone-150)
-}
-
 .recipe-image{
     width: 100%;
     display:block;
